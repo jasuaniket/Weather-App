@@ -147,7 +147,7 @@ function fetchWeatherData(){
             timeOfDay = "night";
         }
         if(code == 1000){
-            app.style.backgroundImage = `url(./images/${timeOfDay}/clear.jpg)`;
+            app.style.backgroundImage = `url(clear.jpg)`;
             btn.style.background = "#54a0e8";
             if(timeOfDay == "night"){
                 btn.style.background = "#487baa";
@@ -166,7 +166,7 @@ function fetchWeatherData(){
             code == 1279 ||
             code == 1282
         ){
-            app.style.backgroundImage = `url(./images/${timeOfDay}/cloudy.jpg)`;
+            app.style.backgroundImage = `url(cloudy.jpg)`;
             btn.style.background = "#535e68";
             if(timeOfDay == "night"){
                 btn.style.background = "#181e27";
@@ -191,13 +191,13 @@ function fetchWeatherData(){
             code == 1249 ||
             code == 1252
         ) {
-            app.style.backgroundImage = `url(./images/${timeOfDay}/rainy.jpg)`;
+            app.style.backgroundImage = `url(rainy.jpg)`;
             btn.style.background = "#647d75";
             if(timeOfDay == "night") {
                 btn.style.background = "#325c80";
             }
         }else {
-            app.style.backgroundImage = `url(./images/${timeOfDay}/snowy.jpg)`;
+            app.style.backgroundImage = `url(snowy.jpg)`;
             btn.style.background = "#4d72aa";
             if(timeOfDay == "night") {
                 btn.style.background = "#1b1b1b";
